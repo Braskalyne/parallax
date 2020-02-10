@@ -34,6 +34,22 @@
 	color: white;
 }
 
+.foto{
+	background-image: url(img/tibo.jpg);
+	height: 300px;
+	width: 300px;
+	left: 0;
+	background-size: cover;
+}
+
+.foto1{
+	background-image: url(img/tibo.jpg);
+	height: 300px;
+	width: 300px;
+	right: 0;
+	background-size: cover;	
+}
+
 .transi{
 	background-color: rgb(96, 0, 0);
 }
@@ -51,7 +67,6 @@
     color: white;
     text-align: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     height: 100%;
     width: 100%;
