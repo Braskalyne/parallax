@@ -1,0 +1,58 @@
+.parallax{
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.para{
+	background-image: url(img/parallax.jpg);
+}
+
+.para1{
+	background-image: url(img/parallax1.jpg);
+}
+
+.para2{
+	background-image: url(img/parallax2.jpg);
+}
+
+.para3{
+	background-image: url(img/parallax3.jpg);
+}
+
+.transi_global{
+	font-size: 28px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	height: 900px;
+	color: white;
+}
+
+.transi{
+	background-color: rgb(96, 0, 0);
+}
+
+.transi1{
+	background-color: rgb(96, 118, 158)
+}
+
+.transi2{
+	background-color: rgb(3, 2, 74);
+}
+
+.text_parallax{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
