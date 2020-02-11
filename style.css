@@ -22,32 +22,18 @@
 	background-image: url(img/parallax3.jpg);
 }
 
+.para4{
+	background-image: url(img/parallax4.jpg);
+}
+
 .transi_global{
 	font-size: 28px;
     display: flex;
-    height: 100%;
-    width: 100%;
     flex-direction: column;
 	justify-content: center;
 	text-align: center;
 	height: 900px;
 	color: white;
-}
-
-.foto{
-	background-image: url(img/tibo.jpg);
-	height: 300px;
-	width: 300px;
-	left: 0;
-	background-size: cover;
-}
-
-.foto1{
-	background-image: url(img/tibo.jpg);
-	height: 300px;
-	width: 300px;
-	right: 0;
-	background-size: cover;	
 }
 
 .transi{
@@ -60,6 +46,41 @@
 
 .transi2{
 	background-color: rgb(3, 2, 74);
+}
+
+.transi3{
+	background-color: rgb(27, 45, 95);
+}
+
+.foto_global{
+	height: 300px;
+	width: 300px;
+	background-size: cover;
+	left: 0;
+    position: absolute;
+}
+
+.foto{
+	background-image: url(img/arthur.png);
+}
+
+.foto1{
+	background-image: url(img/francois.png);
+}
+
+.foto2{
+	background-image: url(img/arnaud.png);
+}
+
+.foto3{
+	background-image: url(img/hugo.png);
+}
+
+.text{
+	font-family: 'Sriracha', cursive;
+	max-width: 1200px;
+    text-align: center;
+    margin-left: 400px;
 }
 
 .text_parallax{
